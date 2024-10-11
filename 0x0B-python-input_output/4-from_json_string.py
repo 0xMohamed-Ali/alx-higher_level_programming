@@ -1,8 +1,9 @@
 #!/usr/bin/python3
-"""Defines a func to serialize and object and return int"""
+# 6-from_json_string.py
+"""Defines a JSON-to-object function."""
 import json
 
 
 def from_json_string(my_str):
-    """ deserializing an object and returns it (JSON Representation)"""
+    """Return the Python object representation of a JSON string."""
     return json.loads(my_str)

@@ -1,7 +1,10 @@
 #!/usr/bin/python3
+# Author - Godswill Kalu
+
 def uppercase(str):
-    for index in str:
-        if ord(index) >= 97 and ord(index) <= 122:
-            index = chr(ord(index) - 32)
-        print("{}".format(index), end="")
+    """Print a string in uppercase."""
+    for c in str:
+        if ord(c) >= 97 and ord(c) <= 122:
+            c = chr(ord(c) - 32)
+        print("{}".format(c), end="")
     print("")

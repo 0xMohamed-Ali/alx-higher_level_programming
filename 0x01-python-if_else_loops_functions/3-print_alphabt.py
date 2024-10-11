@@ -1,4 +1,5 @@
 #!/usr/bin/python3
-for item in range(97, 123):
-    if chr(item) != 'q' and chr(item) != 'e':
-        print("{}".format(chr(item)), end="")
+# Author - Godswill Kalu
+for letter in range(97, 123):
+    if chr(letter) != 'q' and chr(letter) != 'e':
+        print("{}".format(chr(letter)), end="")
